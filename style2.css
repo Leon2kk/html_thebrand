@@ -174,7 +174,7 @@
   height: 45px;
   border: 1px solid #A4A4A4;
   display: flex;
-  width: 100%;
+  width: calc(100% - 34px);
   padding-left: 17px;
   padding-right: 17px;
 }
@@ -268,14 +268,24 @@
   padding-right: 29px;
   font-size: 14px;
   color: #ffffff;
+  cursor: pointer;
 }
 
 .base-btn:hover {
-  cursor: pointer;
   background: #f16275;
   transition: 0.3s;
 }
 
 .regform__btn {
   margin-top: 40px;
+}
+
+.registraion {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.advantages {
+  width: 652px;
 }/*# sourceMappingURL=style2.css.map */

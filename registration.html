@@ -32,34 +32,44 @@
 
     <section class="reg">
         <div  class="center width">
-            <form class="regform"  method="post" action="url(path)">
-                <div class="regform-wrap-field">
-                    <div class="regform-wrap">
-                        <fieldset>
-                            <label for="reg__fname" class="regform__label">Your Name</label>
-                            <input type="text" name="fname" placeholder="First name" class="regform__inputtext" id="reg__fname" required maxlength="255">
-                            <input type="text" name="lname" placeholder="Last name" class="regform__inputtext" id="reg__lname" required maxlength="255">
-                        </fieldset>
-                        <fieldset class="regform_radioset">
-                            <div class="regform__sex">
-                                <input id="reg_sex_m" name="sex" type="radio">
-                                <label for="reg_sex_m" class="regform_label-sex">Male</label>
-                            </div>
-                            <div class="regform__sex">
-                                <input id="reg_sex_f" name="sex" type="radio">
-                                <label  for="reg_sex_f" class="regform_label-sex">Female</label>
-                            </div>
-                        </fieldset>
-                        <fieldset>
-                            <label for="reg__login" class="regform__label">Login details</label>
-                            <input type="email" name="email" placeholder="Email" class="regform__inputtext" id="reg__login" multiple required maxlength="255">
-                            <input type="password" name="password" placeholder="Password" class="regform__inputtext" id="reg__password" required maxlength="255">
-                            <p class="regform_helper-password">Please use 8 or more characters, with at least 1 number and a mixture of uppercase and lowercase letters</p>
-                        </fieldset>
-                        <button type="submit" class="base-btn regform__btn">JOIN NOW →</button>
-                    </div>
+            <div class="registraion">            
+                <form class="regform"  method="post" action="url(path)">
+                    <fieldset>
+                        <label for="reg__fname" class="regform__label">Your Name</label>
+                        <input type="text" name="fname" placeholder="First name" class="regform__inputtext" id="reg__fname" required maxlength="255">
+                        <input type="text" name="lname" placeholder="Last name" class="regform__inputtext" id="reg__lname" required maxlength="255">
+                    </fieldset>
+                    <fieldset class="regform_radioset">
+                        <div class="regform__sex">
+                            <input id="reg_sex_m" name="sex" type="radio">
+                            <label for="reg_sex_m" class="regform_label-sex">Male</label>
+                        </div>
+                        <div class="regform__sex">
+                            <input id="reg_sex_f" name="sex" type="radio">
+                            <label  for="reg_sex_f" class="regform_label-sex">Female</label>
+                        </div>
+                    </fieldset>
+                    <fieldset>
+                        <label for="reg__login" class="regform__label">Login details</label>
+                        <input type="email" name="email" placeholder="Email" class="regform__inputtext" id="reg__login" multiple required maxlength="255">
+                        <input type="password" name="password" placeholder="Password" class="regform__inputtext" id="reg__password" required maxlength="255">
+                        <p class="regform_helper-password">Please use 8 or more characters, with at least 1 number and a mixture of uppercase and lowercase letters</p>
+                    </fieldset>
+                    <button type="submit" class="base-btn regform__btn">JOIN NOW →</button>
+                </form>
+
+                <div class="advantages">
+                    <h3 class="advantages_name">LOYALTY HAS ITS PERKS</h3>
+                    <p class="advantages_desc">Get in on the loyalty program where you can earn points and unlock serious perks. Starting with these as soon as you join:</p>
+                    <ul class="advantages_tages">
+                        <li>15% off welcome offer</li>
+                        <li>Free shipping, returns and exchanges on all orders</li>
+                        <li>$10 off a purchase on your birthday</li>
+                        <li>Early access to products</li>
+                        <li>Exclusive offers & rewards</li>
+                    </ul>
                 </div>
-            </form>
+            </div>  
         </div>
     </section>
 </body>
