@@ -182,19 +182,19 @@
 .regform__inputtext::-moz-placeholder {
   color: #B1B1B1;
   font-size: 13px;
-  font-weight: lighter;
+  font-weight: 300;
 }
 
 .regform__inputtext:-ms-input-placeholder {
   color: #B1B1B1;
   font-size: 13px;
-  font-weight: lighter;
+  font-weight: 300;
 }
 
 .regform__inputtext::placeholder {
   color: #B1B1B1;
   font-size: 13px;
-  font-weight: lighter;
+  font-weight: 300;
 }
 
 .regform__inputtext:hover {
@@ -233,7 +233,7 @@
   text-align: center;
   transition: all 250ms ease;
   font-size: 11px;
-  font-weight: 100;
+  font-weight: 300;
 }
 .regform__sex input[type=radio]:checked + .regform_label-sex:before {
   background-color: #A4A4A4;
@@ -255,7 +255,7 @@
 
 .regform_helper-password {
   font-size: 13px;
-  font-weight: 200;
+  font-weight: 300;
   color: #B1B1B1;
   margin-top: 15px;
 }
@@ -288,4 +288,32 @@
 
 .advantages {
   width: 652px;
+}
+
+.advantages_name {
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.advantages_desc {
+  margin-top: 22px;
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.tages_item {
+  font-size: 24px;
+  font-weight: 300;
+  margin-top: 16px;
+  padding-left: 42px;
+  background: url(./img/item.png) no-repeat 0 center;
+  list-style: none;
+}
+
+.tages_item:first-child {
+  margin-top: 16px;
+}
+
+.advantages_tages {
+  margin-top: 4px;
 }/*# sourceMappingURL=style2.css.map */

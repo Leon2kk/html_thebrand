@@ -204,7 +204,7 @@
 .regform__inputtext::placeholder{
     color: #B1B1B1;
     font-size: 13px;
-    font-weight: lighter;
+    font-weight: 300;
 }
 .regform__inputtext:hover{
     background: #f2f2f2;
@@ -244,7 +244,7 @@ $color2: #d5d5d5;
         text-align: center;
         transition: all 250ms ease;
         font-size: 11px;
-        font-weight: 100;
+        font-weight: 300;
       }
     }
     &:checked {
@@ -285,7 +285,7 @@ $color2: #d5d5d5;
 
 .regform_helper-password{
     font-size: 13px;
-    font-weight: 200;
+    font-weight: 300;
     color: #B1B1B1;
     margin-top: 15px;
 }
@@ -313,4 +313,28 @@ $color2: #d5d5d5;
 }
 .advantages{
     width: 652px;
+}
+
+.advantages_name{
+    font-size: 24px;
+    font-weight: 300;
+}
+.advantages_desc{
+    margin-top: 22px;
+    font-size: 24px;
+    font-weight: 300;
+}
+.tages_item{
+    font-size: 24px;
+    font-weight: 300;
+    margin-top: 16px;
+    padding-left: 42px;
+    background: url(./img/item.png) no-repeat 0 center;
+    list-style: none;
+}
+.tages_item:first-child{
+    margin-top: 16px;
+}
+.advantages_tages{
+    margin-top: 4px;
 }
